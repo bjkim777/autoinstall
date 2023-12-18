@@ -1,0 +1,6 @@
+---
+all:
+  hosts:
+    inner:
+    ws:
+    rocks:
