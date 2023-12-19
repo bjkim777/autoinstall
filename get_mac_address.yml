@@ -1,0 +1,9 @@
+---
+- name: Get MAC address
+  hosts: test
+  gather_facts: yes
+
+  tasks:
+    - name: Display MAC address
+      debug:
+        var: ansible_default_ipv4.macaddress
